@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "UMD Canvas Grades + GPA",
+  "version": "1.0.0",
+  "description": "Displays course grades on UMD Canvas dashboard and adds a GPA calculator widget.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://umd.instructure.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://umd.instructure.com/*"],
+      "js": ["findID.js", "content.js"]
+    }
+  ]
+}
