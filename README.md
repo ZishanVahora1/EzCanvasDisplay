@@ -6,7 +6,7 @@ A lightweight extension that overlays **current grades** on your Canvas dashboar
 
 ## Features
 - 🎯 Grade badges on each course card (UMD-styled, accessible, hover effects)
-- 🧮 GPA Calculator panel with editable credits (defaults to 3.0)
+- 🧮 GPA Calculator panel with editable credits (defaults to 3.0) NOTE: IT IS A POP-UP IN THE BOTTOM RIGHT
 - 🔠 Letter grades mapped from percentages; 4.0 scale conversion
 - 💾 Local persistence of credits per course (per user)
 - 🛡️ Zero external requests; only calls Canvas's own API while you're logged in
