@@ -1,5 +1,6 @@
 # UMD Canvas Grades + GPA (Chrome Extension)
 
+
 A extension that overlays **current grades** on your Canvas dashboard cards and adds a **unofficial GPA calculator** where you can edit credits per course and see your term GPA update live.
 
 
@@ -22,6 +23,7 @@ A extension that overlays **current grades** on your Canvas dashboard cards and 
   - `/api/v1/users/{userId}/enrollments?per_page=50`
 - For each dashboard card, we find its `courseId`, fetch the corresponding enrollment, and show your **current** or **final** score if available.
 - We also build a GPA table with percent → letter → points mapping. You can edit credits per course and the GPA updates live.
+- Live video of the project [here ]([url](https://devpost.com/software/ezcanvasdisplay))
 
 ## Notes & Caveats
 - Different schools or dashboard layouts may use different DOM structures
